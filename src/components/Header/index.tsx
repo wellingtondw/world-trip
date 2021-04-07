@@ -6,7 +6,6 @@ type HeaderProps = {
   previousRouteHref?: string;
 }
 
-
 export function Header({ previousRouteHref = '' }: HeaderProps ) {
   return (
     <Flex h='50px' position='relative' alignItems='center'>
